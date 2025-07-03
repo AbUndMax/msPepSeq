@@ -22,6 +22,7 @@ python msPepSeq.py testData/b_y_spectrum.txt --output_to_file --output_assignmen
 ## Notes
 
 - The program is based exclusively on b- and y-ion fragmentation (no other fragment types are considered).
+- Each peak in input is considered of charge +1. (thus m/z translates to mass directly).
 - Monoisotopic masses for amino acids are taken from my systemsbiology lecture.
 - The mass tolerance is set to 0.055 Da.
 - Output is either printed to the console or written to the `out/` directory (created automatically if needed).
